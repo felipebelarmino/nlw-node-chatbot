@@ -1,0 +1,24 @@
+{
+  "name": "nlw-chat-bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon src/server.ts",
+    "typeorm": "ts-node node_modules/typeorm/cli.js"
+  },
+  "dependencies": {
+    "@types/express": "^4.17.11",
+    "@types/node": "^14.14.41",
+    "express": "^4.17.1",
+    "reflect-metadata": "^0.1.13",
+    "sqlite3": "^5.0.2",
+    "typeorm": "^0.2.32",
+    "uuid": "^3.4.0"
+  },
+  "devDependencies": {
+    "@types/uuid": "^8.3.0",
+    "nodemon": "^2.0.7",
+    "typescript": "^4.2.4"
+  }
+}
